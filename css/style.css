@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header, .container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+    width: 20%;
+}
+
+.left img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.right {
+    float: right;
+}
+
+.right .phone {
+    float: left;
+    padding-right: 10px;
+}
+
+.right .phone img {
+    width: 100%;
+    max-width: 240px;
+}
+
+.right .menu {
+    float: left;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.menu ul li.active, .menu ul li:hover {
+    border-bottom: 4px solid #f15f37;
+    padding-bottom: 15px;
+}
+
+.menu ul li.active a, .menu ul li:hover a {
+    color: #f15f37;
+}
+
+.menu ul li a {
+   color: #000;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 14px;
+}
+
+.banner img {
+    position: relative;
+}
+
+.form-booking {
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form-booking h3 {
+    text-align: center;
+    background-color: #65393f;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.dat-ve {
+    background-color: #f3ebeb;
+    padding: 5px 15px;
+}
+
+.dat-ve h4 {
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.form-checkbox {
+    width: 50%;
+    float: left;
+    margin: 10px 0;
+}
+
+.form-control {
+    margin: 10px 0;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 8px;
+    /* border: 1px solid #e8e3e3; */
+}
+
+.form-submit {
+    text-align: center;
+    margin: 15% 0;
+}
+
+.form-submit button {
+    background-color: #f46a37;
+    padding: 8px;
+    width: 30%;
+    border: none;
+}
+
+.input-err {
+    border: 2px solid #ff3700;
+}
+
+.input-err::placeholder {
+    color: #ff0000;
+}

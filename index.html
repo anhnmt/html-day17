@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đặt vé máy bay</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="image/logo.png" alt="">
+        </div>
+
+        <div class="right">
+            <div class="phone">
+                <img src="image/bookin-hotline.jpg" alt="">
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class="active"><a href="#">Vé máy bay</a></li>
+                    <li><a href="#">Khách sạn</a></li>
+                    <li><a href="#">Tour du lịch</a></li>
+                    <li><a href="#">Đăng nhập</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="banner">
+            <img src="image/banner_t112018.jpg" alt="" width="100%">
+        </div>
+
+        <div class="container">
+            <div class="form-booking">
+                <h3>Đặt vé máy bay</h3>
+    
+                <div class="dat-ve">
+                    <h4>Vé máy bay</h4>
+    
+                    <div class="form-checkbox">
+                        <input type="radio" name="loaiVe" id="veKhuHoi" checked> Vé khứ hồi
+                    </div>
+    
+                    <div class="form-checkbox">
+                        <input type="radio" name="loaiVe" id="veMotChieu"> Vé một chiều
+                    </div>
+    
+                    <div class="form-control">
+                        <input type="text" id="hoTen" placeholder="Họ và tên">
+                    </div>
+    
+                    <div class="form-control">
+                        <input type="text" id="email" placeholder="Email">
+                    </div>
+    
+                    <div class="form-control">
+                        <input type="text" id="diaChi" placeholder="Địa chỉ">
+                    </div>
+    
+                    <div class="form-control">
+                        <input type="text" id="sdt" placeholder="Số điện thoại">
+                    </div>
+    
+                    <div class="form-control">
+                        <input type="text" id="ngayKhoiHanh" placeholder="Ngày khởi hành">
+                    </div>
+    
+                    <div class="form-control">
+                        <input type="text" id="ngayVe" placeholder="Ngày về">
+                    </div>
+    
+                    <div class="form-submit">
+                        <button id="datVe">Đặt vé</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
